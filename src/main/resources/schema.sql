@@ -1,0 +1,6 @@
+CREATE TABLE card (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    card_number VARCHAR(20) NOT NULL,
+    card_type VARCHAR(10) NOT NULL,
+    status VARCHAR(10) NOT NULL
+);
